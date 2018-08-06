@@ -1,0 +1,120 @@
+html {
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+/* logo title */
+
+.title {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+}
+
+.logo-container{
+  display: flex;
+  color: white;
+  width: 960px;
+  align-items: center;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.logo-container img{
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.headingbox{
+  display: flex;
+  width: 960px;
+  align-items: center;
+}
+
+.heading{
+    background-color: black;
+    color: white;
+    width: 20rem;
+    padding: 1.5rem 3rem;
+}
+
+.heading h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* nav bar */
+.navback {
+  display: flex;
+  background-color: firebrick;
+  justify-content: center;
+}
+
+.navbar{
+  display: flex;
+  padding-bottom: 0.75px;
+  width:960px;
+  justify-content: space-between;
+}
+
+.navbar span{
+  padding: 0.75rem; 5
+  align-items: center;
+  color: white;
+}
+
+/* product */
+
+.product{
+  display: flex;
+  padding: 3rem;
+
+  justify-content: center;
+}
+
+.p-box{
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  border: 4px solid black;
+  width: 30%;
+
+}
+
+.container img {
+  justify-content: center;
+  object-fit: contain;
+  max-height: 9rem;
+  max-width: 30%;
+  margin: 2rem;
+}
+
+.container h4{
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
