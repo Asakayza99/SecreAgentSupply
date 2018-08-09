@@ -1,0 +1,259 @@
+html {
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+/* logo title */
+
+.title {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+}
+
+.logo-container{
+  display: flex;
+  color: white;
+  width: 960px;
+  align-items: center;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.logo-container img{
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.headingbox{
+  display: flex;
+  width: 960px;
+  align-items: center;
+}
+
+.heading{
+    background-color: black;
+    color: white;
+    width: 20rem;
+    padding: 1.5rem 3rem;
+}
+
+.heading h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* nav bar */
+.navback {
+  display: flex;
+  background-color: firebrick;
+  justify-content: center;
+}
+
+.navbar{
+  display: flex;
+  padding-bottom: 0.75px;
+  width:960px;
+  justify-content: space-between;
+}
+
+.navbar span{
+  padding: 0.75rem; 5
+  align-items: center;
+  color: white;
+}
+
+  #menu {
+  display: none;
+}
+
+/* product */
+
+.product{
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+}
+
+.p-box{
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  border: 4px solid black;
+  width: 30%;
+}
+
+.imagebox {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 13rem;
+}
+
+.container img {
+  max-height: 9rem;
+  max-width: 100%;
+}
+
+.container h4{
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* contact info */
+
+.info {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.infobox{
+  width: 960px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.infocontainer{
+  width: 35%;
+}
+
+.infocontainer h4 {
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  color: white;
+  border: 1px solid blue;
+}
+
+.infocontainer span{
+  margin: 0;
+}
+
+/* footer */
+footer .footerbox{
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .foot {
+    width:960px;
+}
+
+footer span{
+  color: white;
+}
+
+/* Tablet */
+
+@media only screen and (max-width:1024px){
+
+/* change heading */
+  .heading h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+/* change nav */
+  #menu {
+    display: flex;
+  }
+
+  .navbar{
+    justify-content: center;
+  }
+
+    .navbar span{
+      display:none;
+    }
+
+/* change product */
+  #con-3 {
+    display: none;
+  }
+
+  .container {
+    width: 50%;
+    margin: 1rem;
+  }
+}
+
+/* Smartphone */
+
+@media only screen and (max-width:600px){
+
+  /* change heading */
+    .headingbox{
+      align-items: flex-end;
+    }
+
+    .heading{
+      width:100%;
+    }
+
+    .heading h2{
+      font-size: 1rem;
+    }
+
+    .heading h4{
+      font-size: 0.77rem;
+      font-weight: bold;
+    }
+
+/* change product */
+  #con-2 {
+    display: none;
+  }
+
+  .container {
+    width: 90%;
+    margin: 1rem;
+  }
+
+/* change infobox */
+
+.infobox{
+  flex-direction: column;
+  }
+
+.infocontainer{
+  width: 100%;
+  }
+
+.foot{
+    display:flex;
+    justify-content: center;
+  }
+
+}
